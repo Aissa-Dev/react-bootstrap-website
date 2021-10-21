@@ -50,7 +50,7 @@ function ShowCase() {
         </div>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>Thanks for your visit</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p className="lead">
@@ -87,7 +87,7 @@ function ShowCase() {
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button variant="primary" onClick={handleClose}>
+            <Button variant="success" onClick={handleClose}>
               Submit
             </Button>
           </Modal.Footer>
