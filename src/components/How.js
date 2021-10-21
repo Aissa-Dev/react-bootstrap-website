@@ -13,11 +13,8 @@ function How() {
             </div>
             <div className="col-md p-5">
               <h1>Planing</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum saepe nesciunt accusantium totam eaque! Dolore!
-              </p>
-              <p>
+
+              <p className="my-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Mollitia ullam in dignissimos veniam fugit obcaecati fugiat
                 laboriosam voluptatibus, itaque, enim nesciunt. Saepe laudantium
@@ -36,11 +33,7 @@ function How() {
           <div className="row align-items-center justify-content-between">
             <div className="col-md p-5">
               <h1>Services</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum saepe nesciunt accusantium totam eaque! Dolore!
-              </p>
-              <p>
+              <p className="my-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Mollitia ullam in dignissimos veniam fugit obcaecati fugiat
                 laboriosam voluptatibus, itaque, enim nesciunt. Saepe laudantium

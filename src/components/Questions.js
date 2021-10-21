@@ -28,16 +28,11 @@ function Questions() {
               <div className="accordion-body">
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Cupiditate totam expedita, accusantium praesentium dicta iste,
-                  delectus voluptatibus, culpa voluptatem error facilis sequi
-                  fugiat natus minima perferendis aut aliquam similique! Alias.
+                  Cupiditate totam expedita
                 </p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti aliquid est reiciendis itaque commodi sequi
-                  voluptatum impedit optio repellendus recusandae quis molestias
-                  doloribus dignissimos, sint beatae, cumque neque aut quibusdam
-                  ea. Unde repudiandae illo quae deleniti quas quam ipsa culpa.
                 </p>
               </div>
             </div>
@@ -63,16 +58,11 @@ function Questions() {
               <div className="accordion-body">
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Cupiditate totam expedita, accusantium praesentium dicta iste,
-                  delectus voluptatibus, culpa voluptatem error facilis sequi
-                  fugiat natus minima perferendis aut aliquam similique! Alias.
+                  Cupiditate totam expedita
                 </p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti aliquid est reiciendis itaque commodi sequi
-                  voluptatum impedit optio repellendus recusandae quis molestias
-                  doloribus dignissimos, sint beatae, cumque neque aut quibusdam
-                  ea. Unde repudiandae illo quae deleniti quas quam ipsa culpa.
                 </p>
               </div>
             </div>
@@ -97,16 +87,11 @@ function Questions() {
               <div className="accordion-body">
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Cupiditate totam expedita, accusantium praesentium dicta iste,
-                  delectus voluptatibus, culpa voluptatem error facilis sequi
-                  fugiat natus minima perferendis aut aliquam similique! Alias.
+                  Cupiditate totam expedita
                 </p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti aliquid est reiciendis itaque commodi sequi
-                  voluptatum impedit optio repellendus recusandae quis molestias
-                  doloribus dignissimos, sint beatae, cumque neque aut quibusdam
-                  ea. Unde repudiandae illo quae deleniti quas quam ipsa culpa.
                 </p>
               </div>
             </div>
@@ -131,16 +116,11 @@ function Questions() {
               <div className="accordion-body">
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Cupiditate totam expedita, accusantium praesentium dicta iste,
-                  delectus voluptatibus, culpa voluptatem error facilis sequi
-                  fugiat natus minima perferendis aut aliquam similique! Alias.
+                  Cupiditate totam expedita
                 </p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti aliquid est reiciendis itaque commodi sequi
-                  voluptatum impedit optio repellendus recusandae quis molestias
-                  doloribus dignissimos, sint beatae, cumque neque aut quibusdam
-                  ea. Unde repudiandae illo quae deleniti quas quam ipsa culpa.
                 </p>
               </div>
             </div>
@@ -165,16 +145,11 @@ function Questions() {
               <div className="accordion-body">
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Cupiditate totam expedita, accusantium praesentium dicta iste,
-                  delectus voluptatibus, culpa voluptatem error facilis sequi
-                  fugiat natus minima perferendis aut aliquam similique! Alias.
+                  Cupiditate totam expedita
                 </p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti aliquid est reiciendis itaque commodi sequi
-                  voluptatum impedit optio repellendus recusandae quis molestias
-                  doloribus dignissimos, sint beatae, cumque neque aut quibusdam
-                  ea. Unde repudiandae illo quae deleniti quas quam ipsa culpa.
                 </p>
               </div>
             </div>
