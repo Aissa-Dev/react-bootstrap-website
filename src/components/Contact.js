@@ -30,19 +30,21 @@ function Contact() {
               <h2 className="text-center mb4">Contact Info</h2>
               <ul className="list-group list-group-flush lead">
                 <li className="list-group-item">
-                  <span className="fw-bold">Adress :</span>
+                  <span className="fw-bold">
+                    Adress : 2134 diberville Montreal
+                  </span>
                 </li>
                 <li className="list-group-item">
-                  <span className="fw-bold">Phone :</span>
+                  <span className="fw-bold">Phone : 288 868 8889</span>
                 </li>
                 <li className="list-group-item">
-                  <span className="fw-bold">Email :</span>
+                  <span className="fw-bold">Email : traveleasy@gmail.com</span>
                 </li>
                 <li className="list-group-item">
-                  <span className="fw-bold">Website :</span>
+                  <span className="fw-bold">Website : www.traveleasy.com</span>
                 </li>
                 <li className="list-group-item">
-                  <span className="fw-bold">Fax :</span>
+                  <span className="fw-bold">Fax : 453 234 3456</span>
                 </li>
               </ul>
             </div>
