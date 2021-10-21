@@ -3,10 +3,10 @@ import { Container } from "react-bootstrap";
 
 function Team() {
   return (
-    <section className="p-5 main-color-f">
+    <section className="p-5 bg-dark">
       <Container>
-        <h1 className="text-center text-dark">Our Team</h1>
-        <h4 className=" text-center text-dark mb-5">
+        <h1 className="text-center text-light">Our Team</h1>
+        <h4 className=" text-center text-light mb-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae quos
           illum praesentium.
         </h4>
