@@ -1,8 +1,12 @@
-import React from "react";
-import { Button, InputGroup, FormControl } from "react-bootstrap";
-import cover from "../img/showcase.svg";
+import React, { useState } from "react";
+import { Button, InputGroup, FormControl, Modal } from "react-bootstrap";
+import cover from "../img/cover.svg";
 
 function ShowCase() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <>
       <section className="bg-dark text-light p-5 pb-lg-0 text-center text-sm-start ">
@@ -10,15 +14,15 @@ function ShowCase() {
           <div className="d-sm-flex align-items-center justify-content-between">
             <div>
               <h1>
-                Become a <span className="text-warning"> web Developer</span>
+                Travel in style. <span className="green"> Your style.</span>
               </h1>
               <p className="lead my-4">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit,
                 porro enim. Ex quibusdam reiciendis commodi fugiat quidem
                 dolorum accusamus!
               </p>
-              <Button variant="primary" size="lg">
-                Start Enrolement
+              <Button variant="success" size="lg" onClick={handleShow}>
+                Travel Now
               </Button>
             </div>
             <img
@@ -30,11 +34,11 @@ function ShowCase() {
         </div>
       </section>
 
-      <section className="bg-primary text-light p-5 ">
+      <section className="main-color-f text-light p-4 p-md-5 ">
         <div className="container">
           <div className="d-md-flex justify-content-between align-items-center">
             <div className="d-flex justify-content-center w-100 mb-3 mb-md-0">
-              <h3>Sign Up Newslettes</h3>
+              <h3 className="text-dark">Sign Up for Newsletters</h3>
             </div>
             <InputGroup className="news-input">
               <FormControl placeholder="Type youe email" />
@@ -44,6 +48,50 @@ function ShowCase() {
             </InputGroup>
           </div>
         </div>
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header>
+            <Modal.Title>Modal heading</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p className="lead">
+              Fill out this form and we will get back to you
+            </p>
+            <form>
+              <div className="mb-3">
+                <label htmlFor="first-name" className="col-form-label">
+                  First Name :
+                </label>
+                <input type="text" className="form-control" />
+              </div>
+              <div className="mb-3">
+                <label htmlFor="first-name" className="col-form-label">
+                  Last Name :
+                </label>
+                <input type="text" className="form-control" />
+              </div>
+              <div className="mb-3">
+                <label htmlFor="first-name" className="col-form-label">
+                  Email :
+                </label>
+                <input type="email" className="form-control" />
+              </div>
+              <div className="mb-3">
+                <label htmlFor="first-name" className="col-form-label">
+                  Phone :
+                </label>
+                <input type="text" className="form-control" />
+              </div>
+            </form>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+            <Button variant="primary" onClick={handleClose}>
+              Submit
+            </Button>
+          </Modal.Footer>
+        </Modal>
       </section>
     </>
   );

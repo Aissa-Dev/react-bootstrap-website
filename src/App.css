@@ -2,8 +2,49 @@
   border: 2px solid red;
 }
 
+.main-color-f {
+  background: #23d997;
+}
+.green {
+  color: #23d997;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
 @media (min-width: 768px) {
   .news-input {
     min-width: 50%;
   }
+}
+
+@media (max-width: 768px) {
+  .btn-lg {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+  }
+  .mapContaimer {
+    min-height: 50vh;
+  }
+}
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #aaaaaa;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #181818;
+}
+
+body::before {
+  content: "";
+  height: 60px;
+  display: block;
 }
